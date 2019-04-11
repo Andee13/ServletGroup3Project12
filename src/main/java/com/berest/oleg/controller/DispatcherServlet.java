@@ -36,6 +36,8 @@ public class DispatcherServlet extends HttpServlet {
         process(request,response);
     }
 
+
+
     private void process (HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String action = request.getParameter("action");
 //        response.setContentType("text/html;charset=UTF-8");
